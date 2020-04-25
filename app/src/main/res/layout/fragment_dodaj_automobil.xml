@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Dodaj oglas za Automobil"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/naslovOglasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Naslov oglasa"/>
+
+    <EditText
+        android:id="@+id/tekstOglasa"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Unesite tekst vaseg oglasa"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/cenaAutomobila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Unesite cenu automobila"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/dodajOglas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj oglas" />
+
+</LinearLayout>
